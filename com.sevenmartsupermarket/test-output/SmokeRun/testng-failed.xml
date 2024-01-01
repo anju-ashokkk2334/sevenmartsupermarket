@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SmokeRun]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirstTest(failed)">
+    <classes>
+      <class name="com.sevenmartsupermarket.tests.HomeTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verify_ProfileName"/>
+          <include name="terminateSession"/>
+        </methods>
+      </class> <!-- com.sevenmartsupermarket.tests.HomeTest -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+</suite> <!-- Failed suite [SmokeRun] -->
